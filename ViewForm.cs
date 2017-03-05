@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Drawing;
 
 namespace GamePadView
 {
@@ -31,7 +32,10 @@ namespace GamePadView
             A, B, X, Y, RTrigger, RShoulder, LTrigger, LShoulder, DUp, DDown, DLeft, DRight, Start, Back, LStick, RStick
         };
 
-        private const int STICK_DISTANCE = 9;
+        protected bool MouseIsDown = false;
+        protected Point MousePoint;
+
+        private const int STICK_DISTANCE = 15;
         private const int TRIGGER_THRESHOLD = 50;
 
         private int StickOriginX;
@@ -108,6 +112,36 @@ namespace GamePadView
             stick.Top = StickOriginY - STICK_DISTANCE * state.sThumbLY / 32768;
             stick2.Left = StickOriginX2 + STICK_DISTANCE * state.sThumbRX / 32768;
             stick2.Top = StickOriginY2 - STICK_DISTANCE * state.sThumbRY / 32768;
+        }
+
+        private void ViewForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                MousePoint = new Point(e.X, e.Y);
+                MouseIsDown = true;
+            }
+        }
+
+        private void ViewForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (MouseIsDown)
+            {
+                int x = Location.X - MousePoint.X + e.Location.X;
+                int y = Location.Y - MousePoint.Y + e.Location.Y;
+                Location = new Point(x, y);
+            }
+        }
+
+        private void ViewForm_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+                MouseIsDown = false;
+        }
+
+        private void ViewForm_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
