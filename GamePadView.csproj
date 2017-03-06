@@ -81,31 +81,40 @@
     <Folder Include="bin\Debug\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="res\pad.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="res\circle.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="res\stick.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\stick_1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\controller_3.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\dpad_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dpad_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dpad_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dpad_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_b.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\circle.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\circle2.png" />
+    <None Include="Resources\stick_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_t.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

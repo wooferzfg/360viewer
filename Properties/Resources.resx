@@ -121,10 +121,37 @@
   <data name="controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\controller_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="stick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\res\stick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpad_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpad_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpad_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpad_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpad_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpad_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpad_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpad_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left_t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right_t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stick_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stick_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stick_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stick_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

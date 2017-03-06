@@ -104,6 +104,8 @@ namespace GamePadView
 
             btn_start.Visible = currentInputs.Contains(XBoxControllerInput.Start);
             btn_back.Visible = currentInputs.Contains(XBoxControllerInput.Back);
+            stick.BackgroundImage = currentInputs.Contains(XBoxControllerInput.LStick) ? Properties.Resources.stick_2 : Properties.Resources.stick_1;
+            stick2.BackgroundImage = currentInputs.Contains(XBoxControllerInput.RStick) ? Properties.Resources.stick_2 : Properties.Resources.stick_1;
 
             btnR_trig.Visible = currentInputs.Contains(XBoxControllerInput.RTrigger);
             btnL_trig.Visible = currentInputs.Contains(XBoxControllerInput.LTrigger);

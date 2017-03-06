@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewForm));
             this.stick = new System.Windows.Forms.PictureBox();
             this.btn_R = new System.Windows.Forms.PictureBox();
             this.btn_x = new System.Windows.Forms.PictureBox();
@@ -71,9 +70,9 @@
             // stick
             // 
             this.stick.BackColor = System.Drawing.Color.Transparent;
-            this.stick.BackgroundImage = global::GamePadView.Properties.Resources.stick;
+            this.stick.BackgroundImage = global::GamePadView.Properties.Resources.stick_1;
             this.stick.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.stick.Location = new System.Drawing.Point(51, 37);
+            this.stick.Location = new System.Drawing.Point(50, 36);
             this.stick.Name = "stick";
             this.stick.Size = new System.Drawing.Size(42, 42);
             this.stick.TabIndex = 9;
@@ -82,20 +81,20 @@
             // btn_R
             // 
             this.btn_R.BackColor = System.Drawing.Color.Transparent;
-            this.btn_R.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_R.BackgroundImage = global::GamePadView.Properties.Resources.right_b;
             this.btn_R.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_R.Location = new System.Drawing.Point(220, 1);
+            this.btn_R.Location = new System.Drawing.Point(220, 2);
             this.btn_R.Name = "btn_R";
-            this.btn_R.Size = new System.Drawing.Size(30, 14);
+            this.btn_R.Size = new System.Drawing.Size(54, 20);
             this.btn_R.TabIndex = 8;
             this.btn_R.TabStop = false;
             // 
             // btn_x
             // 
             this.btn_x.BackColor = System.Drawing.Color.Transparent;
-            this.btn_x.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_x.BackgroundImage")));
+            this.btn_x.BackgroundImage = global::GamePadView.Properties.Resources.circle;
             this.btn_x.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_x.Location = new System.Drawing.Point(214, 47);
+            this.btn_x.Location = new System.Drawing.Point(213, 47);
             this.btn_x.Name = "btn_x";
             this.btn_x.Size = new System.Drawing.Size(21, 21);
             this.btn_x.TabIndex = 6;
@@ -106,7 +105,7 @@
             this.btn_b.BackColor = System.Drawing.Color.Transparent;
             this.btn_b.BackgroundImage = global::GamePadView.Properties.Resources.circle;
             this.btn_b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_b.Location = new System.Drawing.Point(261, 47);
+            this.btn_b.Location = new System.Drawing.Point(260, 47);
             this.btn_b.Name = "btn_b";
             this.btn_b.Size = new System.Drawing.Size(21, 21);
             this.btn_b.TabIndex = 5;
@@ -117,7 +116,7 @@
             this.btn_a.BackColor = System.Drawing.Color.Transparent;
             this.btn_a.BackgroundImage = global::GamePadView.Properties.Resources.circle;
             this.btn_a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_a.Location = new System.Drawing.Point(237, 71);
+            this.btn_a.Location = new System.Drawing.Point(237, 70);
             this.btn_a.Name = "btn_a";
             this.btn_a.Size = new System.Drawing.Size(21, 21);
             this.btn_a.TabIndex = 4;
@@ -142,55 +141,55 @@
             // btn_Dleft
             // 
             this.btn_Dleft.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Dleft.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_Dleft.BackgroundImage = global::GamePadView.Properties.Resources.dpad_left;
             this.btn_Dleft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Dleft.Location = new System.Drawing.Point(89, 102);
+            this.btn_Dleft.Location = new System.Drawing.Point(88, 98);
             this.btn_Dleft.Name = "btn_Dleft";
-            this.btn_Dleft.Size = new System.Drawing.Size(16, 16);
+            this.btn_Dleft.Size = new System.Drawing.Size(17, 25);
             this.btn_Dleft.TabIndex = 15;
             this.btn_Dleft.TabStop = false;
             // 
             // btn_Dright
             // 
             this.btn_Dright.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Dright.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_Dright.BackgroundImage = global::GamePadView.Properties.Resources.dpad_right;
             this.btn_Dright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Dright.Location = new System.Drawing.Point(124, 102);
+            this.btn_Dright.Location = new System.Drawing.Point(122, 98);
             this.btn_Dright.Name = "btn_Dright";
-            this.btn_Dright.Size = new System.Drawing.Size(16, 16);
+            this.btn_Dright.Size = new System.Drawing.Size(17, 25);
             this.btn_Dright.TabIndex = 14;
             this.btn_Dright.TabStop = false;
             // 
             // btn_Ddown
             // 
             this.btn_Ddown.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Ddown.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_Ddown.BackgroundImage = global::GamePadView.Properties.Resources.dpad_down;
             this.btn_Ddown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Ddown.Location = new System.Drawing.Point(106, 119);
+            this.btn_Ddown.Location = new System.Drawing.Point(102, 118);
             this.btn_Ddown.Name = "btn_Ddown";
-            this.btn_Ddown.Size = new System.Drawing.Size(16, 16);
+            this.btn_Ddown.Size = new System.Drawing.Size(25, 17);
             this.btn_Ddown.TabIndex = 13;
             this.btn_Ddown.TabStop = false;
             // 
             // btn_Dup
             // 
             this.btn_Dup.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Dup.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_Dup.BackgroundImage = global::GamePadView.Properties.Resources.dpad_up;
             this.btn_Dup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Dup.Location = new System.Drawing.Point(106, 85);
+            this.btn_Dup.Location = new System.Drawing.Point(102, 85);
             this.btn_Dup.Name = "btn_Dup";
-            this.btn_Dup.Size = new System.Drawing.Size(16, 16);
+            this.btn_Dup.Size = new System.Drawing.Size(25, 17);
             this.btn_Dup.TabIndex = 12;
             this.btn_Dup.TabStop = false;
             // 
             // btn_L
             // 
             this.btn_L.BackColor = System.Drawing.Color.Transparent;
-            this.btn_L.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btn_L.BackgroundImage = global::GamePadView.Properties.Resources.left_b;
             this.btn_L.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_L.Location = new System.Drawing.Point(68, 1);
+            this.btn_L.Location = new System.Drawing.Point(45, 2);
             this.btn_L.Name = "btn_L";
-            this.btn_L.Size = new System.Drawing.Size(30, 14);
+            this.btn_L.Size = new System.Drawing.Size(54, 20);
             this.btn_L.TabIndex = 16;
             this.btn_L.TabStop = false;
             // 
@@ -207,9 +206,9 @@
             // stick2
             // 
             this.stick2.BackColor = System.Drawing.Color.Transparent;
-            this.stick2.BackgroundImage = global::GamePadView.Properties.Resources.stick;
+            this.stick2.BackgroundImage = global::GamePadView.Properties.Resources.stick_1;
             this.stick2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.stick2.Location = new System.Drawing.Point(182, 90);
+            this.stick2.Location = new System.Drawing.Point(181, 89);
             this.stick2.Name = "stick2";
             this.stick2.Size = new System.Drawing.Size(42, 42);
             this.stick2.TabIndex = 18;
@@ -240,9 +239,9 @@
             // btnR_trig
             // 
             this.btnR_trig.BackColor = System.Drawing.Color.Transparent;
-            this.btnR_trig.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btnR_trig.BackgroundImage = global::GamePadView.Properties.Resources.right_t;
             this.btnR_trig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnR_trig.Location = new System.Drawing.Point(264, 0);
+            this.btnR_trig.Location = new System.Drawing.Point(280, 2);
             this.btnR_trig.Name = "btnR_trig";
             this.btnR_trig.Size = new System.Drawing.Size(16, 30);
             this.btnR_trig.TabIndex = 21;
@@ -251,9 +250,9 @@
             // btnL_trig
             // 
             this.btnL_trig.BackColor = System.Drawing.Color.Transparent;
-            this.btnL_trig.BackgroundImage = global::GamePadView.Properties.Resources.circle;
+            this.btnL_trig.BackgroundImage = global::GamePadView.Properties.Resources.left_t;
             this.btnL_trig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnL_trig.Location = new System.Drawing.Point(38, 0);
+            this.btnL_trig.Location = new System.Drawing.Point(23, 2);
             this.btnL_trig.Name = "btnL_trig";
             this.btnL_trig.Size = new System.Drawing.Size(16, 30);
             this.btnL_trig.TabIndex = 22;
