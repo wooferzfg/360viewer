@@ -264,7 +264,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.BackgroundImage = global::GamePadView.Properties.Resources.controller_with_back;
-            this.ClientSize = new System.Drawing.Size(319, 210);
+            this.ClientSize = new System.Drawing.Size(320, 210);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.btnL_trig);
             this.Controls.Add(this.btnR_trig);
