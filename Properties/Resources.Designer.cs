@@ -83,6 +83,16 @@ namespace GamePadView.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap controller_with_back {
+            get {
+                object obj = ResourceManager.GetObject("controller_with_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dpad_down {
             get {
                 object obj = ResourceManager.GetObject("dpad_down", resourceCulture);
